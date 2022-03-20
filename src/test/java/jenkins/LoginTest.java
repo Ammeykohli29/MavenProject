@@ -22,6 +22,7 @@ public static WebDriver driver;
 		driver.get("https://gmail.com");
 		driver.findElement(By.id("identifierId")).sendKeys("amitkohli3969@gmail.com");
 		driver.findElement(By.id("identifierNext")).click();
+		//driver.findElement(By.id("password"));
 	}
 
 	@AfterSuite
